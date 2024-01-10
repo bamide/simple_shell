@@ -117,6 +117,7 @@ int builtins_list(data_of_program *data);
 char **tokenize_path(data_of_program *data);
 
 /* Search for program in path */
+
 int find_program(data_of_program *data);
 
 
@@ -178,7 +179,7 @@ char *env_get_key(char *name, data_of_program *data);
 
 /* Overwrite the value of the environment variable */
 int env_set_key(char *key, char *value, data_of_program *data);
-
+                                                 
 /* Remove a key from the environment */
 int env_remove_key(char *key, data_of_program *data);
 
@@ -221,7 +222,7 @@ char *str_concat(char *string1, char *string2);
 /* Reverse a string */
 void str_reverse(char *string);
 
-
+                  
 /*======== helpers_numbers.c ========*/
 
 /* Cast from int to string */
