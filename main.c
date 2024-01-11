@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h" 
 
 /**
  * main - initialize the variables of the program
