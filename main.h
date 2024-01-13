@@ -65,6 +65,7 @@ void inicialize_data(data_of_program *data, int arc, char *argv[], char **env);
 /* Makes the infinite loop that shows the prompt*/
 void sisifo(char *prompt, data_of_program *data);
 
+void custom_execve(const char *pathname, char *const argv[], char *const envp[]);
 /* Print the prompt in a new line */
 void handle_ctrl_c(int opr UNUSED);
 
